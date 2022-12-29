@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/teacherStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>TechMaster</title>
+    <title>Teacher</title>
 </head>
 <body>
 <div>
@@ -17,7 +18,7 @@
             <ul id="header-menu-list">
                 <li class="header-menu-item"><a href="/html/teacherPage.html">GIẢNG VIÊN <i class="fa-sharp fa-solid fa-caret-down"></i></a></li>
                 <li class="header-menu-item"><a href="/html/studentPage.html">HỌC VIÊN <i class="fa-sharp fa-solid fa-caret-down"></i></a></li>
-                <li class="header-menu-item"><a href="/html/studentPage.html">KHÓA HỌC <i class="fa-sharp fa-solid fa-caret-down"></i></a></li>
+                <li class="header-menu-item"><a href="/html/coursePage.html">KHÓA HỌC <i class="fa-sharp fa-solid fa-caret-down"></i></a></li>
                 <li class="header-menu-item">BLOG</li>
                 <li class="header-menu-item">TRẢI NGHIỆM</li>
                 <li class="header-menu-item cart-icon"><i class="fa-solid fa-cart-shopping"></i></li>
@@ -27,11 +28,95 @@
     </div>
 
     <div id="main-detail">
+        <div class="main-detail-item">
+            <div class="teacher-info">
+                <img src="/img/Background-cong-nghe-dep.jpg" alt="">
+                <span class="teacher-avatar">
+                            <i class="fa-solid fa-user"></i>
+                        </span>
+                <h2 class="teacher-name">Chu Tiến Đạt</h2>
+            </div>
+            <div class="teacher-info-detail">
+                        <span class="teacher-info-detail--item">
+                            <p style="background-color: rgb(12, 142, 255);"><i class="fa-solid fa-file"></i> Lớp học tôi dạy</p>
+                        </span>
+                <span class="teacher-info-detail--item">
+                            <p><i class="fa-solid fa-file"></i> Khóa học online</p>
+                        </span>
+                <span class="teacher-info-detail--item">
+                            <p><i class="fa-solid fa-chart-simple"></i> Báo cáo thu nhập</p>
+                        </span>
+            </div>
+        </div>
 
+        <div class="teacher-class-info">
+            <div class="teacher-class-info-menu">
+                <h2 style="color: rgb(12, 142, 255);">Lớp đang dạy</h2>
+                <h2>Lớp sắp khai giảng</h2>
+                <h2>Lớp đã kết thúc</h2>
+            </div>
+            <div class="teacher-class-info-detail">
+                <table style="width: 100%;margin-top: 20px;" class="teacher-class-info-table">
+                    <tr class="title-line">
+                        <th class="class-name-title ">Tên lớp</th>
+                        <th class="class-form-title ">Hình thức</th>
+                        <th class="class-date-title ">Ngày khai giảng</th>
+                        <th class="class-quantity-title ">Số buổi</th>
+                        <th class="student-name-title ">Số học viên</th>
+                    </tr>
+                    <tr class="detail-line">
+                        <td class="class-name">[Java Full Stack 16] Spring Boot</td>
+                        <td class="class-form">Onlab</td>
+                        <td class="class-date"></td>
+                        <td class="class-quantity">7 / 38</td>
+                        <td class="student-quantity">8</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
 
     <div id="footer">
-
+        <div class="footer-column">
+            <ul class="footer-column-owner">
+                <li><h2 class="footer-column-title">CHỦ SỞ HỮU WEBSITE</h2></li>
+                <li>Công ty TNHH TechMaster Vietnam Ltd</li>
+                <li>Số ĐKDN: 0105392153</li>
+                <li>Ngày cấp: 4-7-2011</li>
+                <li>Nơi cấp: Sở kế hoạch - đầu tư Hà nội</li>
+                <li>Người đại diện pháp luật: Trịnh Minh Cường</li>
+            </ul>
+            <ul class="footer-column-introduce">
+                <li><h2 class="footer-column-title">GIỚI THIỆU</h2></li>
+                <li>Học viện CNTT TechMaster</li>
+                <li>Giảng viên</li>
+                <li>Quy định</li>
+                <li>Hướng dẫn mua khóa học</li>
+                <li>Ưu đãi và hoàn trả học phí</li>
+                <li>Bảo vệ thông tin khách hàng</li>
+            </ul>
+            <ul class="footer-column-admissions">
+                <li><h2 class="footer-column-title">TƯ VẤN TUYỂN SINH</h2></li>
+                <li>Nguyễn Thanh Hương - 0382416368</li>
+                <li>huong@techmaster.vn</li>
+                <li>Dương Đức Thịnh - 0987273764</li>
+                <li>thinh@techmaster.vn</li>
+                <li>TƯ VẤN ĐÀO TẠO DOANH NGHIỆP</li>
+                <li>0902209011 - cuong@techmaster.vn</li>
+            </ul>
+            <ul class="footer-column-address">
+                <li><h2 class="footer-column-title">ĐỊA CHỈ</h2></li>
+                <li>Quận Hai Bà Trưng: 14 ngõ 4 Nguyễn Đình Chiểu</li>
+                <li>Quận Nam Từ Liêm: tầng 12A, Viwaseen</li>
+                <li>Tower, 48 Tố Hữu</li>
+                <li>Quận Cầu Giấy: tầng 5, 13 Dịch Vọng Hậu</li>
+                <li class="footer-column-icon">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-github"></i>
+                </li>
+            </ul>
+        </div>
     </div>
 
 </div>

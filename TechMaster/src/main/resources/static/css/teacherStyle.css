@@ -1,0 +1,96 @@
+#main-detail {
+    width: 100%;
+    display: flex;
+    gap: 45px;
+}
+
+.main-detail-item {
+    width: 25%;
+    height: 2000px;
+    background-color: #f1f4f7;
+}
+
+.teacher-info {
+    width: 100%;
+    position: relative;
+}
+
+.teacher-info img {
+    position: absolute;
+    width: 100%;
+}
+
+.teacher-avatar {
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 50%;
+    border:  8px solid #fff;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.teacher-avatar i{
+    font-size: 4rem;
+    padding: 46px 50px;
+}
+
+.teacher-name {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.teacher-info-detail {
+    background-color: #f1f4f7;
+    padding-top: 340px;
+}
+
+.teacher-info-detail--item p{
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+.teacher-info-detail--item p:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(12, 142, 255);
+}
+
+.teacher-class-info {
+    margin-top: 60px;
+    width: 70%;
+}
+
+.teacher-class-info-menu {
+    display: flex;
+    gap: 20px;
+    border-bottom: 4px solid #ccc;
+}
+
+.teacher-class-info-menu h2{
+    padding: 20px;
+}
+
+.teacher-class-info-menu h2:hover {
+    color: rgb(12, 142, 255);
+    cursor: pointer;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+th,td {
+    height: 60px;
+    font-size: 1.2rem;
+}
+
+.detail-line td {
+    padding-left: 10px;
+}
+
+.class-name {
+    color: rgb(12, 142, 255);
+    font-weight: 600;
+}

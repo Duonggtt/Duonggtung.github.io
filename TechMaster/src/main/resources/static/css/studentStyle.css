@@ -1,0 +1,96 @@
+#main-detail {
+    width: 100%;
+    display: flex;
+    gap: 45px;
+}
+
+.main-detail-item {
+    width: 25%;
+    height: 1080px;
+    background-color: #f1f4f7;
+}
+
+.student-info {
+    width: 100%;
+    position: relative;
+}
+
+.student-info img {
+    position: absolute;
+    width: 100%;
+}
+
+.student-avatar {
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 50%;
+    border:  8px solid #fff;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.student-avatar i{
+    font-size: 4rem;
+    padding: 46px 50px;
+}
+
+.class-name {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.student-info-detail {
+    background-color: #f1f4f7;
+    padding-top: 340px;
+}
+
+.student-info-detail--item p{
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+.student-info-detail--item p:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(12, 142, 255);
+}
+
+.student-class-info {
+    margin-top: 60px;
+    width: 70%;
+}
+
+.student-class-info-menu {
+    display: flex;
+    gap: 20px;
+    border-bottom: 4px solid #ccc;
+}
+
+.student-class-info-menu h2{
+    padding: 20px;
+}
+
+.student-class-info-menu h2:hover {
+    color: rgb(12, 142, 255);
+    cursor: pointer;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+th,td {
+    height: 60px;
+    font-size: 1.2rem;
+}
+
+.detail-line td {
+    padding-left: 10px;
+}
+
+.student-name {
+    color: rgb(12, 142, 255);
+    font-weight: 600;
+}

@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/teacherStyle.css">
+    <link rel="stylesheet" href="/css/history.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Teacher</title>
+    <title>TechMaster</title>
 </head>
 <body>
 <div>
@@ -29,47 +29,48 @@
 
     <div id="main-detail">
         <div class="main-detail-item">
-            <div class="teacher-info">
+            <div class="student-info">
                 <img src="/img/Background-cong-nghe-dep.jpg" alt="">
-                <span class="teacher-avatar">
+                <span class="student-avatar">
                             <i class="fa-solid fa-user"></i>
                         </span>
-                <h2 class="teacher-name">Chu Tiến Đạt</h2>
+                <h2 class="profile-name">Trần Tùng Dương</h2>
             </div>
-            <div class="teacher-info-detail">
-                        <span class="teacher-info-detail--item">
-                            <p style="background-color: rgb(12, 142, 255);"><i class="fa-solid fa-file"></i> Lớp học tôi dạy</p>
+            <div class="student-info-detail">
+                        <span class="student-info-detail--item">
+                            <p><i class="fa-solid fa-file"></i> Lớp học của tôi</p>
                         </span>
-                <span class="teacher-info-detail--item">
+                <span class="student-info-detail--item">
                             <p><i class="fa-solid fa-file"></i> Khóa học online</p>
                         </span>
-                <span class="teacher-info-detail--item">
-                            <p><i class="fa-solid fa-chart-simple"></i> Báo cáo thu nhập</p>
+                <span class="student-info-detail--item">
+                            <p style="background-color: rgb(12, 142, 255);"><i class="fa-brands fa-bitcoin"></i> Lịch sử giao dịch</p>
+                        </span>
+                <span class="student-info-detail--item">
+                            <p><i class="fa-solid fa-user"></i> Hồ sơ cá nhân</p>
+                        </span>
+                <span class="student-info-detail--item">
+                            <p><i class="fa-solid fa-chart-simple"></i> Bảo mật tài khoản</p>
                         </span>
             </div>
         </div>
-
-        <div class="teacher-class-info">
-            <div class="teacher-class-info-menu">
-                <h2 style="color: rgb(12, 142, 255);">Lớp đang dạy</h2>
-                <h2>Lớp sắp khai giảng</h2>
-                <h2>Lớp đã kết thúc</h2>
-            </div>
-            <div class="teacher-class-info-detail">
-                <table style="width: 100%;margin-top: 20px;" class="teacher-class-info-table">
+        <div class="transaction-history">
+            <h1 class="transaction-history-title">Lịch sử giao dịch</h1>
+            <div class="transaction-history-detail">
+                <table style="width: 1400px;margin-top: 60px;" class="transaction-history-table">
                     <tr class="title-line">
-                        <th class="class-name-title ">Tên lớp</th>
-                        <th class="class-form-title ">Hình thức</th>
-                        <th class="class-date-title ">Ngày khai giảng</th>
-                        <th class="class-quantity-title ">Số buổi</th>
-                        <th class="student-name-title ">Số học viên</th>
+                        <th class="course-id-title "> ID đơn hàng </th>
+                        <th class="course-name-title "> Tên khóa học </th>
+                        <th class="course-price-title "> Học phí </th>
+                        <th class="course-date-title "> Ngày đăng kí </th>
+                        <th class="course-status-title "> Trạng thái </th>
                     </tr>
                     <tr class="detail-line">
-                        <td class="class-name">[Java Full Stack 16] Spring Boot</td>
-                        <td class="class-form">Onlab</td>
-                        <td class="class-date"></td>
-                        <td class="class-quantity">7 / 38</td>
-                        <td class="student-quantity">8</td>
+                        <td class="course-id"> 10164 </td>
+                        <td class="course-name"> Lộ trình đào tạo Java Spring Boot Fullstack (7 tháng) </td>
+                        <td class="course-price"> 24.000.000 ₫ </td>
+                        <td class="course-date"> 20/09/2022 </td>
+                        <td class="course-status"><p style="background-color: limegreen;color: #fff;"> Hoàn tất thanh toán </p></td>
                     </tr>
                 </table>
             </div>

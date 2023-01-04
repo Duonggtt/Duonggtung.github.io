@@ -29,4 +29,14 @@ public class Control {
         return "index.html";
     }
 
+    @GetMapping("/profile")
+    public String profilePage() {
+        return "profilePage.html";
+    }
+
+    @GetMapping("/history")
+    public String historyPage() {
+        return "historyPage.html";
+    }
+
 }
